@@ -20,268 +20,380 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Chan Ming Hei,  Hayward",
+  initials: "HC",
+  location: "HKUST, Hong Kong",
+  locationLink: "https://www.google.com/maps/place/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@22.3374896,114.260824,17z/data=!3m1!4b1!4m6!3m5!1s0x3404046bc19c7e15:0x2bedd58f9cf841be!8m2!3d22.3374847!4d114.2633989!16zL20vMDFucHYz?entry=ttu",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
-  summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Computer Science Undergraduate that aims to become a Software Engineer for social good. \
+    Passionate about learning new technologies, practices and methodologies through hands-on experience.",
+  avatarUrl: "/Avatar.jpeg",
+  // personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    // email: "bartosz.jarocki@hey.com",
+    // tel: "+48530213401",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/HaywardChan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ming-hei-chan-58759b266/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Hong Kong University of Science and Technology",
+      degree: "Bachelor's Degree in Computer Science with an extended major in Artificial Intelligence and a minor in Mathematics",
+      start: "2021",
+      end: "2025",
+      status: ["Pursuing", "Year 3"],
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
+      company: "FireAlert Limited",
+      link: "https://firealert.com.hk/",
+      badges: ["Full Time", "Internship"],
+      title: "AIoT Web/App Developer",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "May 2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Utilization of RAG and Generative AI for Financial Asset Management.\
+        Built a fully deployed Web/ App using React Native, and the latest LLM and AI Agent frameworks. \
+        Redux and Tailwindcss are used to support centralized state management and advanced styling.\
+        Integrated backend servers with Express.js, and Flask, and connected RestAPIs between applications.\
+        Integrated PostgreSQL for data storage with Redis for data caching.",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "USThing",
+      link: "https://usthing.xyz/",
+      badges: ["Member"],
+      title: "App Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "Apr 2024",
+      end: null,
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "Rebuilt the latest version of all-in-one HKUST application for university students in React Native with mobile application development experts.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "TradeMonday",
+      link: "https://trademonday.com/",
+      badges: ["Full Time", "Internship"],
+      title: "Data Analyst",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "Jun 2023",
+      end: "Sep 2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "Created An fully automated ETL workflow from scraping to analyzing Ikea products and AWS cloud management, \
+        including product pricing comparison with other competitor companies.\
+        Besides, a fully functional dashboard is created in powerBI to display data insights.",
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+  skills: [{
+    title: "Programming Language",
+    variant: "default",
+    badges: [
+      "Python",
+      "TypeScript",
+      "React Native",
+      "C",
+      "C++",
+      "Scala",
+      "Kotlin",
+      "Dart",
+      "HTML",
+      "CSS",
+      "Java",
+      "Git CLI",
+    ]
+  },
+  {
+    title: "Frameworks",
+    variant: "default",
+    badges: [
+      "React.js",
+      "Bootstrap",
+      "React Native",
+      "Tailwindcss",
+      "Node.js",
+      "Next.js",
+      "Shadcn",
+      "Flutter",
+      "Express.js",
+      "nginx",
+      "crewAI",
+      "RestAPI",
+    ]
+  },
+  {
+    title: "Libraries",
+    variant: "default",
+    badges: [
+      "Keras",
+      "Tensorflow",
+      "Pytorch",
+      "Beautiful Soup",
+      "Flask",
+      "Requests",
+      "Numpy",
+      "Pandas",
+      "Gifted Charts",
+    ]
+  },
+  {
+    title: "Database/ Cloud",
+    variant: "default",
+    badges: [
+      "PostgreSQL",
+      "Redis",
+      "AWS S3 Buckets",
+      "AWS EC2",
+      "GitHub",
+    ]
+  },
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "My Resume 2.0",
       techStack: [
-        "Full Stack Developer",
+        "Side Project",
+        "Web",
         "TypeScript",
         "React",
         "Node.js",
-        "GraphQL",
+        "Shadcn",
+        "Tailwind CSS",
+        "Next.js",
+        "Vercel",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "The resume page built to showcase my side projects, experience and expertise in application development and machine learning",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/Haywardchan/my_resume",
       },
+      status: "completed"
     },
     {
-      title: "Evercast",
+      title: "FinanceGPT",
       techStack: [
-        "Lead Frontend Developer",
+        "Full Stack",
         "TypeScript",
-        "React",
+        "React Native",
         "Node.js",
-        "GraphQL",
+        "RestAPI",
+        "Flask",
+        "Express.js",
+        "CrewAI",
+        "GenAI",
+        "Llama3",
+        "Ollama",
+        "RAG",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "All in one Financial Asset Management Application for Financial Advices, \
+        all-rounded monitoring of stock risk, return and more",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "FinanceGPT",
+        href: "https://github.com/Haywardchan/FinanceGPT",
       },
+      status: "completed"
     },
     {
-      title: "Consultly",
+      title: "MIP Drone Search",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "In Progress",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Utilize IoT technology to efficiently search for missing MIPs \
+      (Mentally Incapacitated Persons). \
+      The project won Gold Award in ICT award 2022, and currently serving more than 3000 families.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "searchmissing",
+        href: "https://eek123.ust.hk/searchmissing/",
       },
+      status: "In Progress"
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "USThing App",
+      techStack: [
+        "Team Project", 
+        "App", 
+        "GitHub",
+        "React Native", 
+        "TypeScript", 
+        "Ignite", 
+        "MobX State Tree",
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
+        "USThing is a student-developed all-in-one app for HKUST. \
+        The team consists of passionate and talented students who work towards continually improving the app and the HKUST student community.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "USThing",
+        href: "https://usthing.xyz/",
       },
+      status: "completed"
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "DSE Neuron",
+      techStack: [
+        "Flutter", 
+        "Python", 
+        "Scraping", 
+        "Beautiful Soup",   
+      ],
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "An App for Hong Kong's Secondary School Students. Aims to predict university admission \
+        using predicted grades and provides university admission insights.",
+      logo: MonitoLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "GitHub",
+        href: "https://github.com/Haywardchan/Flutter-Applications",
       },
+      status: "In Progress"
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Expenses Tracker",
+      techStack: [
+        "Team Project", 
+        "App", 
+        "JetPack Compose",
+        "Android Studio", 
+        "Kotlin", 
+        "Room database", 
+      ],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
+        "A comprehensive expense-tracking solution for individuals and groups within an activity \
+        that lets users record their expenses and facilitates group payments by simplifying debt calculations. ",
+      logo: MonitoLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "GitHub",
+        href: "https://github.com/Haywardchan/Budgeting_Android_App",
       },
+      status: "completed"
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Cathay Hackathon",
+      techStack: [
+        "FlutterFlow", 
+        "Canva", 
+        "Python", 
+        "Firebase",  
+        "Pitching",  
+      ],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Joined the Cathay Hackathon as the 20 finalists. Built a flight prediction application including front and backend within 24 Hours",
+      logo: MonitoLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "GitHub",
+        href: "https://github.com/xones267/hack",
       },
+      status: "completed"
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Flask Market",
+      techStack: [
+        "Flask", 
+        "Python", 
+        "Jinja", 
+        "BootStrap",    
+      ],
+      description:
+        "Built a flask market application including routings and log in system. Tried to extend that into a smart home system.",
+      logo: MonitoLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "GitHub",
+        href: "https://github.com/Haywardchan/Flask_Market",
       },
+      status: "completed"
     },
+      {
+        title: "My Resume 1.0",
+        techStack: [
+          "Web", 
+          "Vue.js", 
+          "HTML", 
+          "CSS",  
+        ],
+        description:
+          "Built a resume website as an instragram biography without any frameworks and hosted over google drive (Service ended)",
+        logo: MonitoLogo,
+        link: {
+          label: "GitHub",
+          href: "https://github.com/Haywardchan/instagram_bio_project",
+        },
+        status: "completed"
+      },
+    ],
+    courses: [
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Comp2012H",
+      techStack: [
+        "Programming Assignments", 
+        "C++", 
+        "Pointers", 
+        "Algorithms", 
+        "OOP", 
+        "Data Structures", 
+      ],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Insanely Hard and Tough course for Honors students who graded A or above in Comp1021. \
+        11 Programming Assignments in total, each cost for more than 10+ Hours to complete.",
+      logo: MonitoLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "GitHub",
+        href: "https://github.com/Haywardchan/Comp2012H",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
+      title: "Comp3031",
+      techStack: [
+        "Scala", 
+        "Programming Assignments", 
+        "Data Structures", 
+        "Algorithms", 
+        "OOP", 
+      ],
+      description:
+        "Intense programming paradigm course for programming manics. \
+        With 4 ridiculously hard Programming Assignments of which the mean score is around 6/10.",
+      logo: MonitoLogo,
       link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
+        label: "GitHub",
+        href: "https://github.com/Haywardchan/Functional_Programming",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Comp3111H",
+      techStack: [
+        "Scala", 
+        "Programming Assignments", 
+        "Data Structures", 
+        "Algorithms", 
+        "OOP", 
+      ],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+        "Software Engineering course for Honors students who graded A- or above in Comp2012(H). \
+        In a team of 3, we built a maze game with Software Engineering practices using Java.",
+      logo: MonitoLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "GitHub",
+        href: "https://github.com/dkng27/Comp3111F23G26",
       },
     },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
-  ],
+  ]
 } as const;

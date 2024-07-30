@@ -12,14 +12,15 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  status?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, status = "completed"}: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
-          <CardTitle className="text-base">
+          <CardTitle className="text-lg">
             {link ? (
               <a
                 href={link}
@@ -27,7 +28,15 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 className="inline-flex items-center gap-1 hover:underline"
               >
                 {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
+                {
+                  status=="completed"?
+                    <span className="size-1 rounded-full bg-green-500"></span>  
+                  :
+                  status=="In Progress"?
+                    <span className="size-1 rounded-full bg-yellow-500"></span>  
+                  :
+                    <span className="size-1 rounded-full bg-red-500"></span> 
+                }
               </a>
             ) : (
               title
