@@ -358,6 +358,7 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/Haywardchan/Comp2012H",
       },
+      status: "completed"
     },
     {
       title: "Comp3031",
@@ -376,6 +377,7 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/Haywardchan/Functional_Programming",
       },
+      status: "completed"
     },
     {
       title: "Comp3111H",
@@ -394,6 +396,7 @@ export const RESUME_DATA = {
         label: "GitHub",
         href: "https://github.com/dkng27/Comp3111F23G26",
       },
+      status: "completed"
     },
   ]
 } as const;
