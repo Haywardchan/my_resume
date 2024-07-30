@@ -30,8 +30,8 @@ export const RESUME_DATA = {
   avatarUrl: "/Avatar.jpeg",
   // personalWebsiteUrl: "",
   contact: {
-    // email: "bartosz.jarocki@hey.com",
-    // tel: "+48530213401",
+    email: "",
+    tel: "",
     social: [
       {
         name: "GitHub",
