@@ -56,10 +56,21 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Computer Science with an extended major in Artificial Intelligence and a minor in Mathematics",
       start: "2021",
       end: "2025",
-      status: ["Pursuing", "Year 3"],
+      status: ["Pursuing", "Year 4"],
     },
   ],
   work: [
+    {
+      company: "Google Developer Group On Campus HKUST",
+      link: "https://gdg.community.dev/gdg-on-campus-hong-kong-university-of-science-and-technology-hong-kong-hong-kong/",
+      badges: ["Technical Core Member"],
+      title: "AIoT Web/App Developer",
+      logo: ConsultlyLogo,
+      start: "Nov 2024",
+      end: null,
+      description:
+        "",
+    },
     {
       company: "FireAlert Limited",
       link: "https://firealert.com.hk/",
@@ -160,6 +171,7 @@ export const RESUME_DATA = {
       "AWS S3 Buckets",
       "AWS EC2",
       "GitHub",
+      "AWS Cloud Practitioner"
     ]
   },
   ],
@@ -183,6 +195,30 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/Haywardchan/my_resume",
+      },
+      status: "completed"
+    },
+    {
+      title: "Todo Assistant",
+      techStack: [
+        "Side Project",
+        "Web",
+        "HTML",
+        "CSS",
+        "Python",
+        "Flask",
+        "MySQL",
+        "Vercel",
+        "OAuth",
+        "GCP"
+      ],
+      description:
+        "The Todo Assistant is a simple web application that allows users to create and manage their tasks. \
+        It is a great tool for anyone who needs to stay organized and keep track of their daily tasks.",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/Haywardchan/Todo_Assistant",
       },
       status: "completed"
     },
