@@ -210,7 +210,8 @@ export const RESUME_DATA = {
         "MySQL",
         "Vercel",
         "OAuth",
-        "GCP"
+        "GCP",
+        "Railway"
       ],
       description:
         "The Todo Assistant is a simple web application that allows users to create and manage their tasks. \
@@ -218,7 +219,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/Haywardchan/Todo_Assistant",
+        href: "https://web-production-946d.up.railway.app/",
       },
       status: "completed"
     },
