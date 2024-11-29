@@ -63,8 +63,8 @@ export const RESUME_DATA = {
     {
       company: "Google Developer Group On Campus HKUST",
       link: "https://gdg.community.dev/gdg-on-campus-hong-kong-university-of-science-and-technology-hong-kong-hong-kong/",
-      badges: ["Technical Core Member"],
-      title: "AIoT Web/App Developer",
+      badges: ["Core Member"],
+      title: "Technical Core Member",
       logo: ConsultlyLogo,
       start: "Nov 2024",
       end: null,
@@ -77,8 +77,8 @@ export const RESUME_DATA = {
       badges: ["Full Time", "Internship"],
       title: "AIoT Web/App Developer",
       logo: ConsultlyLogo,
-      start: "May 2024",
-      end: null,
+      start: "Jun 2024",
+      end: "Aug 2024",
       description:
         "Utilization of RAG and Generative AI for Financial Asset Management.\
         Built a fully deployed Web/ App using React Native, and the latest LLM and AI Agent frameworks. \
